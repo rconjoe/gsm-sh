@@ -8,9 +8,5 @@ yes | sudo dpkg --add-architecture i386; sudo apt update; sudo apt -y install ma
 echo -e"\n \n \n Downloading LinuxGSM - eFire s3\n \n \n"
 wget -O linuxgsm.sh https://raw.githubusercontent.com/rconjoe/LinuxGSM/master/linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
 ./csgoserver auto-install
-cd ..
-
-echo -e "\n \n \n Cleaning up...\n \n \n"
-rm -r gsm-sh
 
 echo -e "\n \n \n Upon successful install, run ./csgoserver ul to add your packages to the mod-install list.\n"
