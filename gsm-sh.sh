@@ -1,8 +1,4 @@
 #!/bin/bash
-echo -e "\n \n \n Creating directory...\n \n \n"
-cd ..
-mkdir gs
-cd gs
 
 echo -e "\n \n \n Installing dependencies...\n \n \n"
 sudo apt update
