@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ..
 mkdir gs
 cd gs
 sudo apt update
